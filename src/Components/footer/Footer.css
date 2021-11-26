@@ -1,0 +1,11 @@
+.footer{
+    background: #000;
+}
+.footer h1{
+    color: white;
+}
+.para{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.admin-container{
+    margin: 2% 2%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.left-container form input,textarea{
+    display:block;
+    width: 300px;
+    margin: 5px 0px;
+}
+.right-container{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.right-container a{
+    margin-right: 10px;
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    padding: 6px;
+}
+@media screen and (max-width: 720px) {
+    .admin-container{
+        margin: 0px 100px;
+        display: block;
+    }
+}

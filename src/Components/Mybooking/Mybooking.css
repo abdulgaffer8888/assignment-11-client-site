@@ -1,0 +1,14 @@
+.booking-container{
+    margin: 5% 10%;
+}
+.booking-container button{
+    background: red;
+}
+@media screen and (max-height:720px) {
+    .booking-container{
+        margin: 0;
+    }
+    .booking-container table{
+        width: 100%;
+    }
+}

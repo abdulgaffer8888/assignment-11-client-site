@@ -1,0 +1,19 @@
+.doctors{
+    background: #fff;
+    margin: 2% 5%;
+}
+.doctors h1{
+    text-align: center;
+}
+.doctor-container{
+        margin: 2% 5%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+}
+@media screen and (max-width: 600px){
+    .doctor-container{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+  }

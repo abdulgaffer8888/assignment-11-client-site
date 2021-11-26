@@ -1,0 +1,7 @@
+.booking-container{
+    margin: 5% 10%;
+}
+.booking-container button{
+    background:blue;
+    color: white;
+}

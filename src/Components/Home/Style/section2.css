@@ -1,0 +1,34 @@
+.section2{
+  background: #fff;
+  margin: 2% 2%;
+}
+.section2 h1{
+    text-align: center;
+}
+.section2 .discription{
+    margin: 2% 20%;
+}
+.section2 .discription p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.section2 .gellary-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin: 1% 5%;
+}
+.section2 .gellary-container div{
+    border-radius: 20px;
+}
+.section2 .gellary-container img{
+    width: 100%;
+}
+.section2 .gellary-container div:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width:600px) {
+    .section2 .gellary-container{
+        display: block;
+    }
+}

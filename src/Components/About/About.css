@@ -1,0 +1,31 @@
+.eco-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.eco-container div{
+    margin:5% 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background:rgb(248, 245, 245);
+    box-shadow: 1px 2px 2px gray;
+
+}
+.eco-container div img{
+    width: 300px;
+}
+.about-us{
+    height: 300px;
+    padding-top: 20px;
+    background: url('https://www.himadri.com/images/bg_join_us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .eco-container{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+  }

@@ -1,0 +1,37 @@
+.section3-header{
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section3-container{
+    display:flex;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+
+}
+
+.section3-container .section3-ele img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}
+.section3-ele{
+    width: 100%;
+    position: relative;
+}
+.section3-container .section3-ele h5{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+   
+}
+@media screen and (max-width: 720px){
+    .section3-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

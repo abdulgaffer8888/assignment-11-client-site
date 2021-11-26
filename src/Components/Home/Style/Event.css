@@ -1,0 +1,29 @@
+
+.containers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.containers .event-container{
+    width: 100%;
+}
+.containers .event-container img{
+    width: 90%;
+}
+.element{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.containers .star{
+    font-size: 3px;
+}
+.StarRatings{
+    font-size: 10px;
+}
+@media screen and (max-width: 720px) {
+    .containers{
+        display: block;
+    }
+}
